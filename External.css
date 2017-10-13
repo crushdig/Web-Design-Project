@@ -1,0 +1,421 @@
+body
+{
+  margin: 0;
+  background: url(Background/1916.jpg);
+  font-family: Arial;
+}
+
+.Header
+{
+  background: #053341;;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.Container
+{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.Logo
+{
+  float: left;
+  font-family: League Gothic;
+  font-size: 15px;
+}
+
+h1 a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.Nav
+{
+  float: right;
+}
+
+li a.nav
+{
+  text-decoration: none;
+  color: white;
+}
+
+ul li.foo
+{
+  list-style: none;
+  float: left;
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+ul li:hover
+{
+  text-decoration: underline;
+}
+
+.Content
+{
+  width: 100%;
+  position: relative;
+  background: #ebebeb;
+}
+
+.subcontent
+{
+  width: 960px;
+  position: relative;
+  background-color: white;
+  margin: 100px auto;
+  padding: 40px 20px 40px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, .4);
+}
+
+#Container
+{
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  background: #ebebeb;
+  padding: 10px 0;
+}
+
+.Image-box a img
+{
+  width: 500px;
+  height: 500px;
+}
+
+.Image-box
+{
+  height: 380px;
+  width: 380px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding-left: 12.8px;
+}
+
+
+.Image-text-overlay
+{
+  width: 380px;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  transition: height 0.3s;
+  height: 80px;
+}
+
+.Image-text-overlay.red
+{
+  color: white;
+  background: rgba(255, 0, 0, 0.6);
+  text-align: left;
+  font-size: 25px;
+}
+
+.Image-text-overlay.blue
+{
+  color: #111122;
+  background: rgba(200, 200, 255, 0.6);
+  text-align: left;
+  font-size: 25px;
+}
+
+.Image-text-overlay.green
+{
+  color: white;
+  background: rgba(0, 120, 160, 0.6);
+  text-align: left;
+  font-size: 25px;
+}
+
+.Image-box:hover .Image-text-overlay
+{
+  height: 380px;
+}
+
+#Video
+{
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  height: 420px;
+  padding-top: 70px;
+  padding-bottom: 31px;
+}
+
+#Video1
+{
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  height: 420px;
+  padding-bottom: -120px;
+}
+
+iframe
+{
+  border-width: 0px;
+}
+
+
+footer
+{
+  background-color: rgba(255, 255, 255, 0.5);;
+  /*margin-top: 500px;*/
+  margin: ;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+a.social-icon img {
+  width: 55px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.contact
+{
+  float: right;
+  width: 30%;
+}
+
+.social
+{
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.clearfix
+{
+  clear: both;
+}
+
+input.text
+{
+  height: 30px;
+  width: 250px;
+  border-radius: 3px;
+  border: none
+}
+
+textarea.message
+{
+  height: 100px;
+  width: 250px;
+  border-radius: 3px;
+  border: none;
+}
+
+input.submit
+{
+  width: 60px;
+  height: 30px;
+  background-color: #ffffff;
+  color: #183951;
+  border: none;
+  border-radius: 3px;
+}
+
+input.submit:hover
+{
+  width: 60px;
+  height: 30px;
+  background-color: #ffffff;
+  color: #183951;
+  border: none;
+  border-radius: 3px;
+  text-decoration: underline;
+}
+
+.align-left
+{
+  float: left;
+  margin: 10px 20px 10px 20px;
+  border: #EEE 1px solid;
+  padding: 0.8%;
+  box-shadow: 0 0 3px #EEE;
+}
+
+.align-right
+{
+  float: right;
+  margin: 10px 20px 10px 20px;
+  border: #EEE 1px solid;
+  padding: 0.8%;
+  box-shadow: 0 0 3px #EEE;
+}
+
+.text-caption
+{
+  margin: 20px 0 0;
+  color: #333;
+  font-size: 13px;
+  line-height: 1.62em;
+  text-align: center;
+}
+
+.Image-box1 a img
+{
+  width: 300px;
+  height: 300px;
+}
+
+.Image-box1 img
+{
+  width: 300px;
+  height: 300px;
+}
+
+.Image-box1
+{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding-left: 12.8px;
+}
+
+
+.Image-text-overlay1
+{
+  width: px;
+  position: absolute;
+  bottom: -20px;
+  padding: 20px 20px 0px 10px;
+  transition: height 0.3s;
+  height: 80px;
+}
+
+.Image-text-overlay1.red
+{
+  color: white;
+  background: rgba(255, 0, 0, 0.6);
+  text-align: left;
+  font-size: 15px;
+}
+
+.Image-text-overlay1.blue
+{
+  color: #111122;
+  background: rgba(200, 200, 255, 0.6);
+  text-align: left;
+  font-size: 15px;
+}
+
+.Image-text-overlay1.green
+{
+  color: white;
+  background: rgba(0, 120, 160, 0.6);
+  text-align: left;
+  font-size: 15px;
+}
+
+.Image-text-overlay1.purple
+{
+  color: white;
+  background: rgba(128, 0, 128, 0.6);
+  text-align: left;
+  font-size: 15px;
+}
+
+.Image-text-overlay1.fuschia
+{
+  color: white;
+  background: rgba(255, 0, 255, 0.6);
+  text-align: left;
+  font-size: 15px;
+}
+
+.Image-text-overlay1.olive
+{
+  color: white;
+  background: rgba(128, 128, 0, 0.6);
+  text-align: left;
+  font-size: 15px;
+}
+
+.Image-text-overlay1.lime
+{
+  color: white;
+  background: rgba(0, 255, 0, 0.6);
+  text-align: left;
+  font-size: 15px;
+}
+
+.Image-text-overlay1.yellow
+{
+  color: white;
+  background: rgba(255, 255, 0, 0.6);
+  text-align: left;
+  font-size: 15px;
+}
+
+.Image-text-overlay1.maroon
+{
+  color: white;
+  background: rgba(128, 0, 0, 0.6);
+  text-align: left;
+  font-size: 15px;
+}
+
+.Image-box1:hover .Image-text-overlay1
+{
+  height: 300px;
+}
+
+.subcontent.color
+{
+  background-color: #bbbbbb;
+}
+
+.li-spacing
+{
+  margin: 15px 0px;
+}
+
+li a:hover
+{
+  text-decoration: underline;
+  color: blue;
+}
+
+li a
+{
+  text-decoration: none;
+  color: white;
+}
+
+ul li.icons1
+{
+  text-decoration: none;
+  margin: 0px 0px 10px 0px;
+}
+
+ul li.icons
+{
+  text-decoration: none;
+  margin: 0px 0px 10px -20px;
+}
+
+a.text
+{
+  text-decoration: none;
+  color: white;
+}
+
+a#text
+{
+  text-decoration: none;
+  color: #111122;
+}
